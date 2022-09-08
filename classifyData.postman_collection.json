@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "397fdd5a-912f-40f0-b032-f83ceae5a3c3",
+		"name": "classifyData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8080/classifyData",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"attr1\": \"attr1 value\",\n\t\"attr2\": \"attr2 value\",\n\t\"attr3\": \"attr3 value\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/classifyData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"classifyData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
